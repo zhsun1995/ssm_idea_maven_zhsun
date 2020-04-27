@@ -1,0 +1,11 @@
+
+E
+java:S1148""#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8©°ä´›.
+v
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8¬ó‘·›.
+X	java:S125)"<This block of commented-out lines of code should be removed.(ïþ»¬8óÿÈûš.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(óÌžÃ8©°ä´›.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8¬ó‘·›.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ë™ÌŒøÿÿÿÿ8Õå´›.
+X	java:S125>"<This block of commented-out lines of code should be removed.(ë¨„£8¬ó‘·›.
+X	java:S125/"<This block of commented-out lines of code should be removed.(é£¬‰8ÞÍà´›.

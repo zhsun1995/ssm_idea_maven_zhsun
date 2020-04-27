@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.laosun.mapper.InformationMapper">
+
+    <select id="list" resultType="InformationExtend">
+        select i.*, p.name 'place' FROM information i left join native_place p on i.placeid = p.id
+        <where>
+            <if test="uid != null">
+                and i.uid = #{uid}
+            </if>
+            <if test="place != null">
+                and p.name = #{place}
+            </if>
+        </where>
+    </select>
+
+</mapper>    
+   
